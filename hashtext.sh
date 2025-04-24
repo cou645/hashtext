@@ -1,5 +1,5 @@
 #!/bin/sh
-# Copyright (C) 2023 stemsee
+# Copyright (C) 2025 stemsee
 #
 
 if [[ $(id -u) -ne 0 ]]; then
