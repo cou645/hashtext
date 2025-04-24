@@ -64,5 +64,7 @@ elif [[ ! -f /usr/share/locale/hashtext/"$lng"/"$HANDLE".hashtext ]]; then
 				BANDLE=$(echo "${HANDLE}${TRANDLE}" | md5sum | awk '{print $1}')
 				echo "${BANDLE}" >> /usr/share/locale/hashtext/"$lng"/register
 				echo -e "$WORK" > /usr/share/locale/hashtext/"$lng"/"$HANDLE".hashtext
+    			else
+       				echo "$1"
 			fi
 fi
